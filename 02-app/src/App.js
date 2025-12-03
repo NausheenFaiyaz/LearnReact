@@ -1,17 +1,19 @@
 import React, { useEffect,useState } from "react";
 import "./App.css";
-import MyComponent from "./MyComp";
+// import MyComponent from "./MyComp";
+import Timer from "./Timer";
 
 function App() {
-  const [isVisible,setVisible]=useState(true)
-useEffect(()=>{
-  console.log('App component is Mounting....');
+  // const [isVisible,setVisible]=useState(true)
+// useEffect(()=>{
+//   console.log('App component is Mounting....');
   
-},[])
+// },[])
 
   return <div className="App">
-    {isVisible? <MyComponent/>:<></>}
-    <button onClick={()=> setVisible(!isVisible)}>Toggle</button>
+    <Timer/>
+    {/* {isVisible? <MyComponent/>:<></>}
+    <button onClick={()=> setVisible(!isVisible)}>Toggle</button> */}
   </div>;
 }
 
