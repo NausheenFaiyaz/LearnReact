@@ -7,7 +7,7 @@ body{
     width: 100vw;
     height: 100vh;
 }
-.todo-container{
+.todo-container, .counter-container{
     width: 300px;   
     padding: 20px;
     background-color: #fff;
@@ -35,4 +35,8 @@ body{
 .todo-button:hover{
     background-color: #000000;
     color: #fff;
+}
+
+.counter-container{
+    margin-bottom: 20px;
 }
