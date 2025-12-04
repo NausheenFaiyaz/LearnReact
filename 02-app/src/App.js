@@ -1,4 +1,4 @@
-import React, { useEffect,useState } from "react";
+// import React, { useEffect,useState } from "react";
 import "./App.css";
 // import MyComponent from "./MyComp";
 import Timer from "./Timer";
