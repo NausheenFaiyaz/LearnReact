@@ -1,0 +1,38 @@
+body{
+  background-color: #a3c9ef;
+}
+.board-container{
+  font-family: cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 100px;
+}
+
+.board-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+}
+.square{
+  border: 2px solid black;
+  height: 10rem;
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.square:nth-child(odd){
+  background-color: #ffffa0;
+}
+.square:nth-child(even){
+  background-color: #ffa0c6;
+}
+
+h1{
+  font-family: cursive;
+}
+
