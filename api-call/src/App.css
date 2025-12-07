@@ -1,0 +1,43 @@
+.post-card{
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  width: 300px;
+}
+.App{
+  display: flex;
+  align-items: center;
+  justify-content:  center;
+  flex-wrap: wrap;
+}
+
+.user-card{
+  width: 40rem;
+  height: 80;
+  display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #000;
+  background-color: #bbf6ce;
+  padding: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.user-card img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid;
+}
+
+.user-card h3{
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.user-card p{
+  font-size: 15px;
+font-weight: 500;
+}
