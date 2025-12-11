@@ -3,14 +3,17 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { CounterProvider } from "./context/Counter";
+// import { CounterProvider } from "./context/Counter";
+import { CartProvider } from "./context/Cart";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <CounterProvider>
+    {/* <CounterProvider> */}
+    <CartProvider>
       <App />
-    </CounterProvider>
+    </CartProvider>
+    {/* </CounterProvider> */}
   </React.StrictMode>
 );
 
