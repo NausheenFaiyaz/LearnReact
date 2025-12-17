@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  width: 100vw;
+  height: 100vh;
+  background-color: #62b6b6;
+}
+
+.row {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  background-color: #7fbbe0;
+}
