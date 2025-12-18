@@ -26,3 +26,10 @@ body {
   width: 100vw;
   background-color: #7fbbe0;
 }
+
+.meme{
+  position: relative;
+  width: 350px;
+  overflow: hidden;
+}
+
